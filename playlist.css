@@ -1,0 +1,68 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+      }
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: purple;
+}
+header img {
+    width: 200px;
+    height: 200px;
+    
+    border: 5px solid rgb(255, 255, 255);
+}
+.center {
+    text-align: center;
+}
+header img {
+    margin-top: 50px;
+}
+.player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.spotify-player {
+    border-radius: 12px;
+    transition: all 0.4s ease-in-out;
+}
+
+.mini {
+    width: 200px;
+    height: 80px;
+}
+
+.grande {
+    width: 100%;
+    max-width: 600px;
+    height: 352px;
+}
+
+.toggle-button {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #17a347;
+}
